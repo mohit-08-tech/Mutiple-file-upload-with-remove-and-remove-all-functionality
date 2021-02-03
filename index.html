@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+    <div class="container">
+        <div class="child-container">
+        <form id="fileupload">
+            <div id="file_count"></div>
+            <div class="files " id="files1">
+                <span class="mycss">                 
+                    <input type="file" name="files1" multiple="" id="browse" style="display:none;"/>
+                   <label for="browse">Browse</label>               
+                </span>
+                <br/>
+                <button class="btnRemoveAll">Remove All</button>
+                <br/><br/>        
+                <ul class="fileList"></ul>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+    <script src="jquery.min_old.js"></script> 
+    <script src="file.js"> </script>
+</body>
+</html>

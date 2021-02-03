@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top:10%;
+    left:35%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+}
+
+.mycss{
+    overflow: hidden;
+    display: block;
+    border: 2px solid black;
+    font-size: 40px;
+    width: 300px;
+    font-family: 'Sriracha', cursive;
+    background: rgba(255,255,255,0.38);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+}
+
+img{
+    width: 13px;
+    height: 12px;
+}
+.child-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#file_count{
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color:  yellow;
+}
+.btnRemoveAll{
+    overflow: hidden;
+    text-decoration: none;
+    text-transform:capitalize;
+    background:linear-gradient(#1A2980,#26D0CE);
+    border-radius: 5px;
+    color: #fff;
+    width: 200px;
+    height: 35px;
+    font-size:20px;
+    font-family: 'Caveat', cursive;
+}
+li{
+    font-size: 20px;
+    color:black;
+    font-family: 'JetBrains Mono', monospace;
+}
